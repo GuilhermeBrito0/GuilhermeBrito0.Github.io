@@ -130,3 +130,6 @@ aside ul {
   display: inline-block;
   margin-top: 5px;
 }
+.lista_con {
+    border: 10px;
+}

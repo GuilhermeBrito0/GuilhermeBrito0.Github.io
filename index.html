@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1> Meu portfólio </h1>
+        <p>Estudante em formação</p>
+
+        <!-- Barra de navegação -->
+        <nav class="menu">
+            <a href="#sobre"> Sobre mim</a>
+            <a href="#conhecimentos">Meus conhecimentos</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+    <!-- Sobre mim -->
+    <main>
+        <section id="sobre" class="secao">
+            <h2>Sobre Guilherme Brito</h2>
+            <p>Meu nome é Guilherme Araujo de Brito. Aluno Da Ucsal, em Formaçao em Front-End </p>
+        </section>
+
+        <!-- Parte de falar sobre meus conhecimentos -->
+        <section id="conhecimentos" class="secao">
+            <h2>Conhecimentos</h2>
+            <ul>
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+            </ul>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tecnologia</th>
+                        <th>Nível</th>
+                        <th>Onde Aplico</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Intermediario</td>
+                        <td>Estrutura de páginas</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Inicial</td>
+                        <td>Interatividade da página</td>
+                    </tr>
+                    <tr>
+                        <td>Java</td>
+                        <td>Intermediario</td>
+                        <td>Back-End</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Projetos que ja fiz -->
+        <section id="projetos" class="secao">
+            <h2>Projetos</h2>
+            <article>
+                <h3>Meu primeiro site em aula</h3>
+                <p>Projeto criado em aula para testes.</p>
+                <p>Tecnologia: HTML</p>
+                <a href="Clube.html" target="_blank" class="botao">Projeto do Bahia</a>
+            </article>
+
+            <article>
+                <h3>Portfólio pessoal</h3>
+                <p>Projeto em desenvolvimento para apresentar meus conhecimentos.</p>
+                <p>Tecnologias: HTML, CSS e JavaScript</p>
+                <a href="index.html" class="botao">Ver repositorios</a>
+            </article>
+        </section>
+
+        <!-- Area de contato com a pessoa -->
+        <section id="contato" class="secao">
+            <form>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome">
+                
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem"></textarea>
+
+                <button type="submit">Enviar mensagem</button>
+            </form>
+        </section>
+ 
+        <aside>
+           <p>Objetivo atual: desenvolver meus primeiros projetos Front-End.</p>
+            <ul>
+                <li><a href="https://github.com/GuilhermeBrito0" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/guilherme-brito-92a868437/" target="_blank">Linkedin</a></li>
+                <li>Interesse: Desenvolvimento web</li>
+                <li>Ingles: Intermediario</li>
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <p>Portfólio de Guilherme Brito - 2026</p>
+        <p>Desenvolvido como atividade da disciplina de Programação Front-End.</p>
+    </footer>
+</body>
+</html>

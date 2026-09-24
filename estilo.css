@@ -130,6 +130,11 @@ aside ul {
   display: inline-block;
   margin-top: 5px;
 }
-.lista_con {
-    border: 10px;
+.lista_con li {
+    border: 1px solid rgb(0, 102, 102);
+    border-collapse: collapse;
+    margin-right: 600px;
 }
+.lista_con li:hover {
+    background-color: #CCC;
+} 

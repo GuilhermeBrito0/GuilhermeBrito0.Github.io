@@ -24,6 +24,9 @@ body {
     text-decoration: underline;
     color: darkkhaki;
 }
+#sobre p {
+    color:black
+}
 
 .secao {
     background-color: white;

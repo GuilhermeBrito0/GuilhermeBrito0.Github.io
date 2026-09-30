@@ -4,6 +4,7 @@ body {
     background-color: whitesmoke;
     color: #055b63;
     line-height: 1.6;
+    font-size: 17px;
 }
 
 .cabecalho {
@@ -32,7 +33,7 @@ body {
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
     margin: 25px auto 0 auto;
-    max-width: 800px;
+    max-width: 850px;
 }
 
 article {
@@ -120,6 +121,8 @@ aside {
     background-color: lightgoldenrodyellow;
     border-radius: 10px;
     box-shadow: 1px 1px 10px 2px #ccc;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 aside ul {
@@ -129,6 +132,7 @@ aside ul {
   padding-left: 20px;
   display: inline-block;
   margin-top: 5px;
+  font-weight: normal;
 }
 .lista_con li {
     border-collapse: collapse;
@@ -136,4 +140,8 @@ aside ul {
 }
 .lista_con li:hover {
     background-color: #CCC;
-} 
+}
+footer {
+    text-align: center;
+    font-size:12px;
+}
